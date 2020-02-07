@@ -39,7 +39,7 @@ node {
                     def uploadSpec= """{
                         "files": [{
                         "pattern": "target/*.war",
-                        "target": "petsey"}]
+                        "target": "petc"}]
                     }"""
         server.upload(uploadSpec)
         
